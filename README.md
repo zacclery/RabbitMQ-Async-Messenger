@@ -11,13 +11,17 @@ The project uses RabbitMQ, pika and asyncio.
 ## Getting Started
 
 Ensure RabbitMQ is installed and running https://www.rabbitmq.com/download.html
+
 git clone https://github.com/zacclery/RabbitMQ-Async-Messenger.git && cd RabbitMQ-Async-Messenger
 ##### Create virtualenv and activate
 pip install -r requirements.txt
 
 python printer.py
+
 python alarm_server.py 0.001
+
 python alarm_server.py 0.0002
+
 python time_server.py
 
 ## Authors
